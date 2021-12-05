@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c9cdb7a0-15ca-43be-97f3-9922b60aec58</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Advent_of_Code_2021 D3.py</StartupFile>
+    <StartupFile>Advent_of_Code_2021 D5.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
     <Compile Include="Advent_of_Code_2021 D3.py" />
     <Compile Include="Advent_of_Code_2021 D2.py" />
     <Compile Include="Advent_of_Code_2021 D1.py" />
+    <Compile Include="Advent_of_Code_2021 D5.py" />
+    <Compile Include="Advent_of_Code_2021 D4P2.py" />
+    <Compile Include="Advent_of_Code_2021 D4.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
