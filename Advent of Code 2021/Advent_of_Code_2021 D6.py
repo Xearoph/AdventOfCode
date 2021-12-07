@@ -2,7 +2,7 @@ with open('inputD6.txt','r') as f:
 	lines = f.read().split(",")
 
 lines = list(map(int, lines))
-days = 256
+days = 32
 count = 0
 for y in range(days) :
 	for x in range(len(lines)) :
