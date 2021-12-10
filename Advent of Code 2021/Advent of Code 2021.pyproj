@@ -4,14 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c9cdb7a0-15ca-43be-97f3-9922b60aec58</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Advent_of_Code_2021 D6.py</StartupFile>
+    <StartupFile>Advent_of_Code_2021 D7.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Advent of Code 2021</Name>
     <RootNamespace>Advent of Code 2021</RootNamespace>
-    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|env2|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,12 +25,22 @@
     <Compile Include="Advent_of_Code_2021 D3.py" />
     <Compile Include="Advent_of_Code_2021 D2.py" />
     <Compile Include="Advent_of_Code_2021 D1.py" />
+    <Compile Include="Advent_of_Code_2021 D7.py" />
     <Compile Include="Advent_of_Code_2021 D6.py" />
     <Compile Include="Advent_of_Code_2021 D5.py" />
     <Compile Include="Advent_of_Code_2021 D4P2.py" />
     <Compile Include="Advent_of_Code_2021 D4.py" />
   </ItemGroup>
   <ItemGroup>
+    <Interpreter Include="env2\">
+      <Id>env2</Id>
+      <Version>0.0</Version>
+      <Description>env2 (Python 3.10 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
     <Interpreter Include="env\">
       <Id>env</Id>
       <Version>3.9</Version>
