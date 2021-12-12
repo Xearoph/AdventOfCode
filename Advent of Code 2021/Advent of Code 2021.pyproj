@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c9cdb7a0-15ca-43be-97f3-9922b60aec58</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Advent_of_Code_2021 D8.py</StartupFile>
+    <StartupFile>Advent_of_Code_2021 D8 P2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,7 @@
     <Compile Include="Advent_of_Code_2021 D3.py" />
     <Compile Include="Advent_of_Code_2021 D2.py" />
     <Compile Include="Advent_of_Code_2021 D1.py" />
+    <Compile Include="Advent_of_Code_2021 D8 P2.py" />
     <Compile Include="Advent_of_Code_2021 D8.py" />
     <Compile Include="Advent_of_Code_2021 D7.py" />
     <Compile Include="Advent_of_Code_2021 D6.py" />
